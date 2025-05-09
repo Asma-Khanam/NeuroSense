@@ -1,0 +1,23 @@
+# Core data science libraries
+numpy>=1.20.0
+matplotlib>=3.4.0
+scipy>=1.6.0
+pandas>=1.3.0  # Often used with the other data science tools
+
+# Machine learning
+scikit-learn>=1.0.0
+joblib>=1.0.0
+
+# Visualization
+seaborn>=0.11.0
+mplcursors>=0.4.0
+
+# EEG/MEG analysis
+mne>=1.0.0  # Includes eegbci dataset and ICA preprocessing
+
+# GUI libraries (additional to tkinter)
+pillow>=8.0.0  # Often needed for image support
+
+# Optional dependencies that might be needed
+pyyaml>=6.0  # Often needed by MNE and other packages
+pooch>=1.5.0  # Used by MNE for dataset fetching

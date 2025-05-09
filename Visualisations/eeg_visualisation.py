@@ -37,7 +37,7 @@ COLORS = {
 
 # Try to load the model
 try:
-    model = joblib.load('high_acc_gb_model.pkl')  # You can change this to your preferred model
+    model = joblib.load('models/high_acc_gb_model.pkl')  # You can change this to your preferred model
     print("Model loaded successfully!")
     have_model = True
 except Exception as e:
